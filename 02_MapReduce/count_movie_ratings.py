@@ -18,3 +18,5 @@ class CountMovieRatings(MRJob):
 
 if __name__ == "__main__":
     CountMovieRatings.run()
+    # Usage:
+    # python count_movie_ratings.py MovieLens_data_100k/u.data
