@@ -1,5 +1,6 @@
 from pyspark import SparkConf, SparkContext
 
+
 # This function just creates a Python "dictionary" we can later use to
 # convert movie ID to movie name
 def loadMovieNames():
@@ -51,4 +52,4 @@ if __name__ == "__main__":
 
     # Print them out:
     for result in results:
-        print(movieNames[result[0], result[1]])
+        print(movieNames[result[0]], result[1])
