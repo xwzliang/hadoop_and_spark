@@ -1,3 +1,5 @@
-project/
+project/project/
+build.properties
+metals.sbt
 target/
 .metals/
